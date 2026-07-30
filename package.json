@@ -1,6 +1,6 @@
 {
-  "name": "ortak-hava-pro",
-  "version": "1.0.1",
+  "name": "weather-consensus",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
