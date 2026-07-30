@@ -1,7 +1,7 @@
 {
   "name": "Weather Consensus",
-  "short_name": "Consensus",
-  "description": "Five-model weather and marine consensus forecast",
+  "short_name": "Weather Consensus",
+  "description": "Five-model weather consensus with marine, radar, air quality, pollen and alerts",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#061324",
