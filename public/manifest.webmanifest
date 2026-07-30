@@ -1,7 +1,7 @@
 {
-  "name": "Ortak Hava Pro",
-  "short_name": "Ortak Hava",
-  "description": "Beş model hava ve deniz tahmini",
+  "name": "Weather Consensus",
+  "short_name": "Consensus",
+  "description": "Five-model weather and marine consensus forecast",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#061324",

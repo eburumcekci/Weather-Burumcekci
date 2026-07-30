@@ -1,4 +1,4 @@
-const CACHE="ortak-hava-pro-v1";
+const CACHE="weather-consensus-v2";
 const ASSETS=["/","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener("activate",e=>{e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))]))});
